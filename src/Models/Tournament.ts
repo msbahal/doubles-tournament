@@ -25,9 +25,8 @@ const {
 } = defaultTournamentValues;
 
 export default abstract class Tournament<
-  T extends PlayersController | TeamsController,
-> implements ITournament
-{
+  T extends PlayersController | TeamsController
+> implements ITournament {
   public id: string;
   public name: string;
   public date: Date;
