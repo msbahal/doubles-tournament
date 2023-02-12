@@ -52,16 +52,12 @@ export const tablesForSwitchRR: Tables = {
   ],
   9: [
     [
-      { 3: null, 4: null },
-      { 2: null, 8: null },
+      { 1: null, 2: null },
+      { 3: null, 6: null },
     ],
     [
+      { 4: null, 8: null },
       { 5: null, 7: null },
-      { 10: null, 1: null },
-    ],
-    [
-      { 9: null, 12: null },
-      { 6: null, 11: null },
     ],
   ],
   12: [
@@ -76,6 +72,20 @@ export const tablesForSwitchRR: Tables = {
     [
       { 5: null, 9: null },
       { 11: null, 0: null },
+    ],
+  ],
+  13: [
+    [
+      { 3: null, 4: null },
+      { 2: null, 8: null },
+    ],
+    [
+      { 5: null, 7: null },
+      { 10: null, 1: null },
+    ],
+    [
+      { 9: null, 12: null },
+      { 6: null, 11: null },
     ],
   ],
   16: [
@@ -94,6 +104,24 @@ export const tablesForSwitchRR: Tables = {
     [
       { 1: null, 8: null },
       { 15: null, 0: null },
+    ],
+  ],
+  17: [
+    [
+      { 14: null, 15: null },
+      { 2: null, 4: null },
+    ],
+    [
+      { 5: null, 8: null },
+      { 7: null, 13: null },
+    ],
+    [
+      { 12: null, 16: null },
+      { 1: null, 9: null },
+    ],
+    [
+      { 6: null, 11: null },
+      { 3: null, 10: null },
     ],
   ],
   20: [
@@ -116,6 +144,28 @@ export const tablesForSwitchRR: Tables = {
     [
       { 2: null, 8: null },
       { 3: null, 11: null },
+    ],
+  ],
+  21: [
+    [
+      { 9: null, 10: null },
+      { 4: null, 7: null },
+    ],
+    [
+      { 15: null, 17: null },
+      { 8: null, 16: null },
+    ],
+    [
+      { 2: null, 6: null },
+      { 13: null, 18: null },
+    ],
+    [
+      { 14: null, 20: null },
+      { 3: null, 12: null },
+    ],
+    [
+      { 19: null, 5: null },
+      { 1: null, 11: null },
     ],
   ],
   24: [
@@ -142,6 +192,32 @@ export const tablesForSwitchRR: Tables = {
     [
       { 7: null, 14: null },
       { 1: null, 12: null },
+    ],
+  ],
+  25: [
+    [
+      { 5: null, 6: null },
+      { 1: null, 13: null },
+    ],
+    [
+      { 20: null, 22: null },
+      { 11: null, 19: null },
+    ],
+    [
+      { 21: null, 24: null },
+      { 2: null, 12: null },
+    ],
+    [
+      { 4: null, 8: null },
+      { 18: null, 23: null },
+    ],
+    [
+      { 9: null, 15: null },
+      { 10: null, 17: null },
+    ],
+    [
+      { 7: null, 16: null },
+      { 3: null, 14: null },
     ],
   ],
   28: [
@@ -174,67 +250,457 @@ export const tablesForSwitchRR: Tables = {
       { 27: null, 0: null },
     ],
   ],
+  29: [
+    [
+      { 24: null, 25: null },
+      { 7: null, 1: null },
+    ],
+    [
+      { 20: null, 22: null },
+      { 1: null, 5: null },
+    ],
+    [
+      { 9: null, 12: null },
+      { 8: null, 18: null },
+    ],
+    [
+      { 23: null, 28: null },
+      { 2: null, 4: null },
+    ],
+    [
+      { 21: null, 27: null },
+      { 26: null, 4: null },
+    ],
+    [
+      { 5: null, 13: null },
+      { 3: null, 6: null },
+    ],
+    [
+      { 10: null, 19: null },
+      { 6: null, 7: null },
+    ],
+  ],
+  32: [
+    [
+      { 24: null, 25: null },
+      { 31: null, 0: null },
+    ],
+    [
+      { 9: null, 11: null },
+      { 28: null, 5: null },
+    ],
+    [
+      { 10: null, 13: null },
+      { 22: null, 26: null },
+    ],
+    [
+      { 7: null, 12: null },
+      { 2: null, 15: null },
+    ],
+    [
+      { 21: null, 27: null },
+      { 20: null, 29: null },
+    ],
+    [
+      { 23: null, 30: null },
+      { 8: null, 19: null },
+    ],
+    [
+      { 4: null, 14: null },
+      { 3: null, 17: null },
+    ],
+    [
+      { 6: null, 18: null },
+      { 1: null, 16: null },
+    ],
+  ],
+  33: [
+    [
+      { 29: null, 30: null },
+      { 13: null, 22: null },
+    ],
+    [
+      { 26: null, 28: null },
+      { 8: null, 20: null },
+    ],
+    [
+      { 9: null, 12: null },
+      { 7: null, 14: null },
+    ],
+    [
+      { 23: null, 27: null },
+      { 1: null, 17: null },
+    ],
+    [
+      { 5: null, 10: null },
+      { 6: null, 19: null },
+    ],
+    [
+      { 25: null, 31: null },
+      { 2: null, 16: null },
+    ],
+    [
+      { 24: null, 32: null },
+      { 11: null, 21: null },
+    ],
+    [
+      { 4: null, 15: null },
+      { 3: null, 18: null },
+    ],
+  ],
+  36: [
+    [
+      { 26: null, 27: null },
+      { 11: null, 22: null },
+    ],
+    [
+      { 29: null, 31: null },
+      { 3: null, 19: null },
+    ],
+    [
+      { 9: null, 12: null },
+      { 6: null, 20: null },
+    ],
+    [
+      { 10: null, 14: null },
+      { 23: null, 30: null },
+    ],
+    [
+      { 28: null, 33: null },
+      { 4: null, 16: null },
+    ],
+    [
+      { 7: null, 13: null },
+      { 8: null, 21: null },
+    ],
+    [
+      { 24: null, 32: null },
+      { 25: null, 34: null },
+    ],
+    [
+      { 5: null, 15: null },
+      { 1: null, 18: null },
+    ],
+    [
+      { 2: null, 17: null },
+      { 35: null, 0: null },
+    ],
+  ],
+  37: [
+    [
+      { 13: null, 14: null },
+      { 10: null, 12: null },
+    ],
+    [
+      { 26: null, 29: null },
+      { 7: null, 15: null },
+    ],
+    [
+      { 30: null, 34: null },
+      { 2: null, 18: null },
+    ],
+    [
+      { 27: null, 32: null },
+      { 4: null, 17: null },
+    ],
+    [
+      { 25: null, 31: null },
+      { 1: null, 19: null },
+    ],
+    [
+      { 28: null, 35: null },
+      { 36: null, 9: null },
+    ],
+    [
+      { 24: null, 33: null },
+      { 3: null, 20: null },
+    ],
+    [
+      { 5: null, 16: null },
+      { 8: null, 22: null },
+    ],
+    [
+      { 11: null, 23: null },
+      { 6: null, 21: null },
+    ],
+  ],
+  40: [
+    [
+      { 33: null, 34: null },
+      { 5: null, 17: null },
+    ],
+    [
+      { 29: null, 31: null },
+      { 11: null, 24: null },
+    ],
+    [
+      { 12: null, 15: null },
+      { 26: null, 36: null },
+    ],
+    [
+      { 9: null, 13: null },
+      { 6: null, 22: null },
+    ],
+    [
+      { 27: null, 32: null },
+      { 28: null, 35: null },
+    ],
+    [
+      { 10: null, 16: null },
+      { 4: null, 18: null },
+    ],
+    [
+      { 30: null, 38: null },
+      { 3: null, 21: null },
+    ],
+    [
+      { 37: null, 7: null },
+      { 8: null, 23: null },
+    ],
+    [
+      { 14: null, 25: null },
+      { 1: null, 20: null },
+    ],
+    [
+      { 2: null, 19: null },
+      { 39: null, 0: null },
+    ],
+  ],
+  41: [
+    [
+      { 32: null, 33: null },
+      { 6: null, 23: null },
+    ],
+    [
+      { 13: null, 15: null },
+      { 14: null, 26: null },
+    ],
+    [
+      { 9: null, 12: null },
+      { 28: null, 36: null },
+    ],
+    [
+      { 35: null, 39: null },
+      { 30: null, 37: null },
+    ],
+    [
+      { 29: null, 34: null },
+      { 8: null, 24: null },
+    ],
+    [
+      { 10: null, 16: null },
+      { 3: null, 22: null },
+    ],
+    [
+      { 31: null, 40: null },
+      { 2: null, 20: null },
+    ],
+    [
+      { 7: null, 17: null },
+      { 11: null, 25: null },
+    ],
+    [
+      { 27: null, 38: null },
+      { 4: null, 19: null },
+    ],
+    [
+      { 5: null, 18: null },
+      { 1: null, 21: null },
+    ],
+  ],
+  44: [
+    [
+      { 9: null, 10: null },
+      { 5: null, 19: null },
+    ],
+    [
+      { 33: null, 35: null },
+      { 4: null, 20: null },
+    ],
+    [
+      { 12: null, 15: null },
+      { 1: null, 22: null },
+    ],
+    [
+      { 13: null, 17: null },
+      { 30: null, 38: null },
+    ],
+    [
+      { 32: null, 37: null },
+      { 11: null, 26: null },
+    ],
+    [
+      { 36: null, 42: null },
+      { 34: null, 41: null },
+    ],
+    [
+      { 31: null, 40: null },
+      { 16: null, 28: null },
+    ],
+    [
+      { 29: null, 39: null },
+      { 2: null, 21: null },
+    ],
+    [
+      { 7: null, 18: null },
+      { 14: null, 27: null },
+    ],
+    [
+      { 8: null, 25: null },
+      { 6: null, 24: null },
+    ],
+    [
+      { 3: null, 23: null },
+      { 43: null, 0: null },
+    ],
+  ],
+  45: [
+    [
+      { 12: null, 13: null },
+      { 14: null, 28: null },
+    ],
+    [
+      { 34: null, 36: null },
+      { 1: null, 23: null },
+    ],
+    [
+      { 15: null, 18: null },
+      { 32: null, 37: null },
+    ],
+    [
+      { 38: null, 42: null },
+      { 2: null, 22: null },
+    ],
+    [
+      { 33: null, 39: null },
+      { 7: null, 19: null },
+    ],
+    [
+      { 10: null, 17: null },
+      { 44: null, 9: null },
+    ],
+    [
+      { 35: null, 43: null },
+      { 31: null, 40: null },
+    ],
+    [
+      { 30: null, 41: null },
+      { 3: null, 24: null },
+    ],
+    [
+      { 16: null, 29: null },
+      { 8: null, 26: null },
+    ],
+    [
+      { 5: null, 20: null },
+      { 11: null, 27: null },
+    ],
+    [
+      { 4: null, 21: null },
+      { 6: null, 25: null },
+    ],
+  ],
+  48: [
+    [
+      { 35: null, 36: null },
+      { 19: null, 31: null },
+    ],
+    [
+      { 37: null, 39: null },
+      { 4: null, 22: null },
+    ],
+    [
+      { 12: null, 15: null },
+      { 5: null, 21: null },
+    ],
+    [
+      { 13: null, 17: null },
+      { 2: null, 23: null },
+    ],
+    [
+      { 40: null, 45: null },
+      { 32: null, 43: null },
+    ],
+    [
+      { 38: null, 44: null },
+      { 10: null, 18: null },
+    ],
+    [
+      { 34: null, 41: null },
+      { 16: null, 30: null },
+    ],
+    [
+      { 33: null, 42: null },
+      { 11: null, 28: null },
+    ],
+    [
+      { 46: null, 9: null },
+      { 8: null, 27: null },
+    ],
+    [
+      { 7: null, 20: null },
+      { 47: null, 0: null },
+    ],
+    [
+      { 14: null, 29: null },
+      { 6: null, 26: null },
+    ],
+    [
+      { 3: null, 25: null },
+      { 1: null, 24: null },
+    ],
+  ],
+  49: [
+    [
+      { 12: null, 13: null },
+      { 7: null, 21: null },
+    ],
+    [
+      { 15: null, 17: null },
+      { 38: null, 47: null },
+    ],
+    [
+      { 36: null, 39: null },
+      { 42: null, 46: null },
+    ],
+    [
+      { 35: null, 40: null },
+      { 6: null, 27: null },
+    ],
+    [
+      { 37: null, 43: null },
+      { 1: null, 25: null },
+    ],
+    [
+      { 41: null, 48: null },
+      { 10: null, 18: null },
+    ],
+    [
+      { 34: null, 44: null },
+      { 5: null, 22: null },
+    ],
+    [
+      { 9: null, 20: null },
+      { 4: null, 23: null },
+    ],
+    [
+      { 33: null, 45: null },
+      { 11: null, 29: null },
+    ],
+    [
+      { 19: null, 32: null },
+      { 8: null, 28: null },
+    ],
+    [
+      { 16: null, 31: null },
+      { 14: null, 30: null },
+    ],
+    [
+      { 2: null, 24: null },
+      { 3: null, 26: null },
+    ],
+  ],
 };
-
-// A solution for 8 Bridge Tables (32 players)
-// Table 1    24 and 25  vs.  31 and  0
-// Table 2     9 and 11  vs.  28 and  5
-// Table 3    10 and 13  vs.  22 and 26
-// Table 4     7 and 12  vs.   2 and 15
-// Table 5    21 and 27  vs.  20 and 29
-// Table 6    23 and 30  vs.   8 and 19
-// Table 7     4 and 14  vs.   3 and 17
-// Table 8     6 and 18  vs.   1 and 16
-
-// A solution for 9 Bridge Tables (36 players)
-// Table 1    26 and 27  vs.  11 and 22
-// Table 2    29 and 31  vs.   3 and 19
-// Table 3     9 and 12  vs.   6 and 20
-// Table 4    10 and 14  vs.  23 and 30
-// Table 5    28 and 33  vs.   4 and 16
-// Table 6     7 and 13  vs.   8 and 21
-// Table 7    24 and 32  vs.  25 and 34
-// Table 8     5 and 15  vs.   1 and 18
-// Table 9     2 and 17  vs.  35 and  0
-
-// A solution for 10 Bridge Tables (40 players)
-// Table 1    33 and 34  vs.   5 and 17
-// Table 2    29 and 31  vs.  11 and 24
-// Table 3    12 and 15  vs.  26 and 36
-// Table 4     9 and 13  vs.   6 and 22
-// Table 5    27 and 32  vs.  28 and 35
-// Table 6    10 and 16  vs.   4 and 18
-// Table 7    30 and 38  vs.   3 and 21
-// Table 8    37 and  7  vs.   8 and 23
-// Table 9    14 and 25  vs.   1 and 20
-// Table 10    2 and 19  vs.  39 and  0
-
-// A solution for 11 Bridge Tables (44 players)
-// Table 1     9 and 10  vs.   5 and 19
-// Table 2    33 and 35  vs.   4 and 20
-// Table 3    12 and 15  vs.   1 and 22
-// Table 4    13 and 17  vs.  30 and 38
-// Table 5    32 and 37  vs.  11 and 26
-// Table 6    36 and 42  vs.  34 and 41
-// Table 7    31 and 40  vs.  16 and 28
-// Table 8    29 and 39  vs.   2 and 21
-// Table 9     7 and 18  vs.  14 and 27
-// Table 10    8 and 25  vs.   6 and 24
-// Table 11    3 and 23  vs.  43 and  0
-
-// A solution for 12 Bridge Tables (48 players)
-// Table 1    35 and 36  vs.  19 and 31
-// Table 2    37 and 39  vs.   4 and 22
-// Table 3    12 and 15  vs.   5 and 21
-// Table 4    13 and 17  vs.   2 and 23
-// Table 5    40 and 45  vs.  32 and 43
-// Table 6    38 and 44  vs.  10 and 18
-// Table 7    34 and 41  vs.  16 and 30
-// Table 8    33 and 42  vs.  11 and 28
-// Table 9    46 and  9  vs.   8 and 27
-// Table 10    7 and 20  vs.  47 and  0
-// Table 11   14 and 29  vs.   6 and 26
-// Table 12    3 and 25  vs.   1 and 24
 
 // A solution for 13 Bridge Tables (52 players)
 // Table 1    41 and 42  vs.  39 and 48

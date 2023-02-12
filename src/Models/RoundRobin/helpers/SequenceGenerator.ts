@@ -45,7 +45,7 @@ export default class SequenceGenerator {
     for (let i = 1; i < numberOfPlayers; i++) {
       sequence.push(new Array(numberOfPlayers).fill(1));
       for (let j = 0; j < numberOfPlayers; j++) {
-        sequence[i][j] = sequence[i - 1][j] + 1;
+        sequence[i][j] = sequence[i - 1][j] < numberOfPlayers - 1 ? sequence[i - 1][j] + 1 : 0;
       }
     }
 
